@@ -1,0 +1,20 @@
+<!-- templates/output.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Generated Resume Paths</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; }
+      h1 { color: #333; }
+      p { font-size: 1.1em; }
+      .path { font-weight: bold; color: #0056b3; }
+    </style>
+</head>
+<body>
+    <h1>Resume Generated Successfully</h1>
+    <p>DOCX File Path: <span class="path">{{ output_paths.docx }}</span></p>
+    <p>PDF File Path: <span class="path">{{ output_paths.pdf }}</span></p>
+    <p>ATS Score: <span class="path">{{ output_paths.ats_score }}</span></p>
+</body>
+</html>
